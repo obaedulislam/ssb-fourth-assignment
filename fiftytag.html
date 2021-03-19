@@ -1,0 +1,580 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>This is 4th Assignment About HTML & CSS</title>
+    <link rel="stylesheet" href="css/style.css">
+
+    <style>
+        .style-tag h3{
+            color: blue;
+        }
+        .style-tag p{
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <div class="head">
+        <div class="logo">
+            <a href="index.html">
+                <img src="images/logo.png" alt="Logo" >
+            </a>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html" class="active">HOME</a></li>
+                <li><a href="fiftytag.html">FIFTY TAG</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <div class="web-layout">
+        <a href="#">HTML Fifty Element & Tag</a>
+    </div>
+
+    <div class="all-tag">
+        
+        <div class="param-tag">
+            <h2 style="margin-bottom: 20px;">1. This is "param" TAG example:</h2>
+            <object data="images/computer.mp4" width="400" height="300">
+                <param name="autoplay" value="true">
+            </object>
+        </div>
+    
+        <div class="picture-tag">
+            <h2 style="margin-bottom: 20px;">2. This is "picture" TAG example:</h2>
+            <picture>
+                <source media="(min-width:750px)" srcset="images/office.jpg">
+                <source media="(min-width:430px)" srcset="images/office2.jpg">
+                <img src="images/mainoffice.jpg" alt="Flowers" style="width:auto;">
+              </picture>  
+        </div>
+    
+        <div class="pre-tag">
+            <h2 style="margin-bottom: 20px;">3. This is "pre" TAG example:</h2>
+            <pre>
+                Text in a pre element
+                is displayed in a fixed-width
+                font, and it preserves
+                both      spaces and
+                line breaks
+            </pre>        
+        </div>
+    
+        <div class="img-tag">
+            <h2 style="margin-bottom: 20px;">4. This is "img" TAG example:</h2>
+            <img src="images/family.jpg" alt="">
+        </div>
+    
+        <div class="progress-tag">
+            <h2 style="margin-bottom: 20px;">5. This is "progress" TAG example:</h2>
+            <label for="file" style="margin-left: 30px;">Downloading progress:</label>
+            <progress id="file" value="52" max="100"> <span>32%</span> </progress>
+        </div>
+
+        <div class="q-tag">
+            <h2 style="margin-bottom: 20px;">6. This is "q" TAG example:</h2>
+            <p> <q>The whole secret of a successful life is to find out what is one’s destiny to do, and then do it.</q>– Henry Ford</p>
+        </div>
+
+        <div class="rp-tag">
+            <h2 style="margin-bottom: 20px;">7. This is "rp" TAG example:</h2>
+
+            <ruby>
+                漢 <rt><rp>(</rp>ㄏㄢˋ<rp>)</rp></rt>
+            </ruby>
+        </div>
+
+        <div class="s-tag">
+            <h2 style="margin-bottom: 20px;">8. This is "s" TAG example:</h2>
+            <p>An s element is displayed like this:</p>
+            <p><s>Some no-longer correct text.</s></p>
+        </div>
+
+        <div class="samp-tag">
+            <h2 style="margin-bottom: 20px;">9. This is "samp" TAG example:</h2>
+            <p>Message from my computer:</p><br>
+            <p><samp>  File not found.<br>Press F1 to continue</samp></p>
+        </div>
+
+        <div class="small-tag">
+            <h2 style="margin-bottom: 20px;">10. This is "small" TAG example:</h2>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ratione, animi.</p>
+            <p><small>This is some smaller text.</small></p>
+        </div>
+
+        <div class="source-tag">
+            <h2 style="margin-bottom: 20px;">11. This is "source" TAG example:</h2>
+            <audio controls>
+                <source src="images/Epic orchestral.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+              </audio>
+        </div>
+
+        <div class="summary-tag">
+            <h2 style="margin-bottom: 20px;">12. This is "summary" TAG example:</h2>
+                <details>
+                    <summary>Epcot Center</summary>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga quidem, nisi tempore provident sapiente aspernatur, alias quisquam voluptates dignissimos praesentium maxime accusantium suscipit cupiditate sit nemo, quibusdam porro blanditiis expedita! Vero quia vitae commodi repudiandae ullam inventore magni saepe voluptatum.</p>
+                </details>
+                <details>
+                    <summary>Epcot Center</summary>
+                    <p>Epcot is a theme park at Walt Disney World Resort featuring exciting attractions, international pavilions, award-winning fireworks and seasonal special events.</p>
+                </details>
+        </div>
+    
+        <div class="subsup-tag">
+            <h2 style="margin-bottom: 20px;">13. This is "sub" TAG example:</h2>
+            <p>This text contains <sub>subscript</sub> text.</p>
+        </div>
+
+        <div class="svg-tag">
+            <h2 style="margin-bottom: 20px;">14. This is "svg" TAG example:</h2>
+            <svg width="100" height="100">
+                <circle cx="50" cy="50" r="40" stroke="green" stroke-width="4" fill="yellow" />
+                Sorry, your browser does not support inline SVG.
+            </svg>
+        </div>
+
+        <div class="tbh-tag">
+            <h2 style="margin-bottom: 20px;">15. This is "thead" TAG example:</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Email</th>
+                        <th>Phone</th>
+                      </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Monir</td>
+                        <td>name@gmail.com</td>
+                        <td>+88017647*****</td>
+                      </tr>
+                      <tr>
+                        <td>Kamrul</td>
+                        <td>name@gmail.com</td>
+                        <td>+88017647*****</td>
+                      </tr>
+                      <tr>
+                        <td>Sahid</td>
+                        <td>name@gmail.com</td>
+                        <td>+88017647*****</td>
+                      </tr>
+                </tbody>
+              </table>
+        </div>
+
+        <div class="time-tag">
+            <h2 style="margin-bottom: 20px;">16. This is "time" TAG example:</h2>
+            <p>Open from <time>10:00</time> to <time>21:00</time> every weekday.</p>
+            <p>I have a date on <time datetime="2008-02-14 20:00">Valentines day</time>.</p>
+        </div>
+
+        <div class="textarea-tag">
+            <h2 style="margin-bottom: 20px;">17. This is "textarea" TAG example:</h2>
+            <form action="#">
+                <label for="message">Enter Your Message:</label>
+                <textarea id="subject" name="subject" placeholder="Write something.." style="height:150px"></textarea>
+
+                <input type="submit" value="Submit">
+            </form>
+        </div>
+
+        <div class="tfoot-tag">
+            <h2 style="margin-bottom: 20px;">18. This is "tfoot" TAG example:</h2>
+            <table>
+                <thead>
+                  <tr>
+                    <th>Month</th>
+                    <th>Savings</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>January</td>
+                    <td>$100</td>
+                  </tr>
+                  <tr>
+                    <td>February</td>
+                    <td>$80</td>
+                  </tr>
+                </tbody>
+                <tfoot>
+                  <tr>
+                    <td>Sum</td>
+                    <td>$180</td>
+                  </tr>
+                </tfoot>
+              </table>
+        </div>
+
+        <div class="u-tag">
+            <h2 style="margin-bottom: 20px;">19. This is "u" TAG example:</h2>
+            <p>This is some <u>mispeled</u> text.</p>
+        </div>
+
+        <div class="wbr-tag">
+            <h2 style="margin-bottom: 20px;">20. This is "wbr" TAG example:</h2>
+            <p>This is a veryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryvery<wbr>longwordthatwillbreakatspecifidddddddddddddddddddddddddddddddddc<wbr>placeswhenthebrowserwindowisresized.</p>
+        </div>
+
+        <div class="colgroup-tag">
+            <h2 style="margin-bottom: 20px;">21. This is "colgroup" TAG example:</h2>
+            <table>
+                <colgroup>
+                    <col span="2" style="background-color:red">
+                    <col style="background-color:yellow">
+                  </colgroup>
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Email</th>
+                        <th>Phone</th>
+                      </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Monir</td>
+                        <td>name@gmail.com</td>
+                        <td>+88017647*****</td>
+                      </tr>
+                      <tr>
+                        <td>Kamrul</td>
+                        <td>name@gmail.com</td>
+                        <td>+88017647*****</td>
+                      </tr>
+                      <tr>
+                        <td>Sahid</td>
+                        <td>name@gmail.com</td>
+                        <td>+88017647*****</td>
+                      </tr>
+                </tbody>
+              </table>
+        </div>
+
+        <div class="noscript-tag">
+            <h2 style="margin-bottom: 20px;">23. This is "noscript" TAG example:</h2>
+            <p>A browser with JavaScript disabled will show the text inside the noscript element ("Hello World!" will not be displayed).</p>
+
+            <script>
+            document.write("Hello World!")
+            </script>
+            <noscript>Sorry, your browser does not support JavaScript!</noscript>
+        </div>
+
+        <div class="ol-tag">
+            <h2 style="margin-bottom: 20px;">24. This is "ol" TAG example:</h2>
+        
+            <ol>
+                <li>Coffee</li>
+                <li>Tea</li>
+                <li>Milk</li>
+            </ol>
+              
+            <ol start="50">
+                <li>Coffee</li>
+                <li>Tea</li>
+                <li>Milk</li>
+            </ol>
+        </div>
+
+        <div class="p-tag">
+            <h2 style="margin-bottom: 20px;">25. This is "p" TAG example:</h2>
+        
+            <p>This a Paragraph Tag</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, illum eius placeat provident aliquam ipsam officiis illo iure earum expedita error cupiditate dolore recusandae, voluptate repellendus incidunt in corporis ea.</p>
+        </div>
+
+        <div class="rt-tag">
+            <h2 style="margin-bottom: 20px;">26. This is "rt" TAG example:</h2>
+
+            <ruby>
+                漢 <rt><rp>(</rp>ㄏㄢˋ<rp>)</rp></rt>
+            </ruby>
+        </div>
+
+        <div class="select-tag">
+            <h2 style="margin-bottom: 20px;">27. This is "select" TAG example:</h2>
+            <form action="#">
+            <label for="cars">Choose a car:</label>
+            <select name="cars" id="cars">
+                <option value="volvo">Volvo</option>
+                <option value="saab">Saab</option>
+                <option value="opel">Opel</option>
+                <option value="audi">Audi</option>
+            </select>
+            <br>
+            <input type="submit" value="Submit">
+            </form>
+        </div>
+
+        <div class="select-tag">
+            <h2 style="margin-bottom: 20px;">28. This is "span" TAG example:</h2>
+            <p>My mother has <span style="color:blue">blue</span> eyes.</p>
+        </div>
+
+        <div class="strong-tag">
+            <h2 style="margin-bottom: 20px;">29. This is "strong" TAG example:</h2>
+            <p> The tag is used to <strong> define text with strong importance.</strong> The content inside is typically displayed in bold.</p>
+        </div>
+
+        <div class="style-tag">
+            <h2 style="margin-bottom: 20px;">30. This is "style" TAG example:</h2>
+            <h3>This Heading Content is colored by "style" tag.</h3>
+            <p>This Content is colored by "style" tag.</p>
+        </div>
+
+        <div class="subsup-tag">
+            <h2 style="margin-bottom: 20px;">31. This is "sup" TAG example:</h2>
+            <p>This text contains <sup>superscript</sup> text.</p>
+        </div>
+
+        <div class="tbh-tag">
+            <h2 style="margin-bottom: 20px;">32. This is "tbody" TAG example:</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Email</th>
+                        <th>Phone</th>
+                      </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Monir</td>
+                        <td>name@gmail.com</td>
+                        <td>+88017647*****</td>
+                      </tr>
+                      <tr>
+                        <td>Kamrul</td>
+                        <td>name@gmail.com</td>
+                        <td>+88017647*****</td>
+                      </tr>
+                      <tr>
+                        <td>Sahid</td>
+                        <td>name@gmail.com</td>
+                        <td>+88017647*****</td>
+                      </tr>
+                </tbody>
+              </table>
+        </div>
+
+        <div class="tbh-tag">
+            <h2 style="margin-bottom: 20px;">33. This is "th" TAG example:</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Email</th>
+                        <th>Phone</th>
+                      </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Monir</td>
+                        <td>name@gmail.com</td>
+                        <td>+88017647*****</td>
+                      </tr>
+                      <tr>
+                        <td>Kamrul</td>
+                        <td>name@gmail.com</td>
+                        <td>+88017647*****</td>
+                      </tr>
+                      <tr>
+                        <td>Sahid</td>
+                        <td>name@gmail.com</td>
+                        <td>+88017647*****</td>
+                      </tr>
+                </tbody>
+              </table>
+        </div>
+
+
+        <div class="title-tag">
+            <h2 style="margin-bottom: 20px;">33. This is "title" TAG example:</h2>
+            <p>The <span style="font-size: 20px;">"title"</span> tag defines the title of the document. The title must be text-only, and it is shown in the browser's title bar or in the page's tab.</p>
+        </div>
+
+        <div class="tr-tag">
+            <h2 style="margin-bottom: 20px;">34. This is "tr" TAG example:</h2>
+            <table>
+                <tr>
+                  <th>Month</th>
+                  <th>Savings</th>
+                </tr>
+                <tr>
+                  <td>January</td>
+                  <td>$100</td>
+                </tr>
+                <tr>
+                  <td>February</td>
+                  <td>$80</td>
+                </tr>
+              </table>
+        </div>
+
+        <div class="ul-tag">
+            <h2 style="margin-bottom: 20px;">35. This is "ul" TAG example:</h2>
+            <ul style="margin-left: 20px;">
+                <li>Coffee</li>
+                <li>Tea</li>
+                <li>Milk</li>
+              </ul>
+        </div>
+
+        <div class="table-tag">
+            <h2 style="margin-bottom: 20px;">36. This is "table" TAG example:</h2>
+            <table>
+                <tr>
+                  <th>Month</th>
+                  <th>Savings</th>
+                </tr>
+                <tr>
+                  <td>January</td>
+                  <td>$100</td>
+                </tr>
+                <tr>
+                  <td>February</td>
+                  <td>$80</td>
+                </tr>
+              </table>
+        </div>
+
+        <div class="td-tag">
+            <h2 style="margin-bottom: 20px;">37. This is "td" TAG example:</h2>
+            <table>
+                <tr>
+                  <th>Month</th>
+                  <th>Savings</th>
+                </tr>
+                <tr>
+                  <td>January</td>
+                  <td>$100</td>
+                </tr>
+                <tr>
+                  <td>February</td>
+                  <td>$80</td>
+                </tr>
+              </table>
+        </div>
+
+        <div class="section-tag">
+            <h2 style="margin-bottom: 20px;">38. This is "section" TAG example:</h2>
+            <section>
+                <h2>WWF History</h2>
+                <p>The World Wide Fund for Nature (WWF) is an international organization working on issues regarding the conservation, research and restoration of the environment, formerly named the World Wildlife Fund. WWF was founded in 1961.</p>
+              </section>
+              <br>
+              <section>
+                <h2>WWF's Symbol</h2>
+                <p>The Panda has become the symbol of WWF. The well-known panda logo of WWF originated from a panda named Chi Chi that was transferred from the Beijing Zoo to the London Zoo in the same year of the establishment of WWF.</p>
+            </section>   
+        </div>
+
+        <div class="script-tag">
+            <h2 style="margin-bottom: 20px;">39. This is "script" TAG example:</h2>
+            <p id="demo"></p>
+            <script>
+            document.getElementById("demo").innerHTML = "Hello JavaScript!";
+            </script> 
+        </div>
+
+        <div class="output-tag">
+            <h2 style="margin-bottom: 20px;">40. This is "output" TAG example:</h2>
+            <h1>The output element</h1>
+            <form oninput="x.value=parseInt(a.value)+parseInt(b.value)">
+                <input type="range" id="a" value="50">
+                +<input type="number" id="b" value="25">
+                =<output name="x" for="a b"></output>
+            </form>
+
+            <p><strong>Note:</strong> The output element is not supported in Edge 12 (or earlier).</p>
+        </div>
+
+        <div class="link-tag">
+            <h2 style="margin-bottom: 20px;">41. This is "link" TAG example:</h2>
+            <p>The <code class="w3-codespan">&lt;link&gt;</code> tag defines the relationship between the current document and an external resource. </p>
+        </div>
+
+        <div class="i-tag">
+            <h2 style="margin-bottom: 20px;">42. This is "i-tag" TAG example:</h2>
+            <p>The <i style="font-weight: bold;">RMS Titanic</i>, a luxury steamship, sank on April 15, 1912 after striking an iceberg.</p>
+        </div>
+
+        <div class="html-tag">
+            <h2 style="margin-bottom: 20px;">43. This is "html-tag" TAG example:</h2>
+            <p>The <code class="w3-codespan">&lt;html&gt;</code> tag represents the root of an HTML document.</p>
+        </div>
+
+        <div class="figure-tag">
+            <h2 style="margin-bottom: 20px;">44. This is "figure-tag" TAG example:</h2>
+            <img src="images/office2.jpg" alt="Office">
+        </div>
+
+        <div class="figcaption-tag">
+            <h2 style="margin-bottom: 20px;">45. This is "figcaption-tag" TAG example:</h2>
+            <img src="images/office.jpg" alt="Office">
+            <figcaption>Fig.1 - Trulli, Puglia, Italy.</figcaption>
+        </div>
+
+        <div class="colgroup-tag">
+            <h2 style="margin-bottom: 20px;">46. This is "colgroup-tag" TAG example:</h2>
+            <table>
+                <colgroup>
+                <col span="2" style="background-color:red">
+                <col style="background-color:yellow">
+                </colgroup>
+                <tr>
+                <th>ISBN</th>
+                <th>Title</th>
+                <th>Price</th>
+                </tr>
+                <tr>
+                <td>3476896</td>
+                <td>My first HTML</td>
+                <td>$53</td>
+                </tr>
+            </table>
+          </div>
+
+        <div class="doctype-tag">
+            <h2 style="margin-bottom: 20px;">47. This is "doctype-tag" TAG example:</h2>
+            <p>All HTML documents must start with a <code class="w3-codespan">&lt;!DOCTYPE&gt;</code> declaration.</p>
+            <p>The declaration is not an HTML tag.It is an "information" to the browser about what document type to expect.</p>
+          </div>
+
+        <div class="comment-tag">
+            <h2 style="margin-bottom: 20px;">48. This is "comment-tag" TAG example:</h2>
+            <span class="color_h1">&lt;!--...--&gt;</span>
+            <p>The comment tag is used to insert comments in the source code. Comments are not displayed in the browsers.</p>
+          </div>
+
+        <div class="ruby-tag">
+            <h2 style="margin-bottom: 20px;">49. This is "ruby-tag" TAG example:</h2>         
+            <ruby>
+                漢 <rt> ㄏㄢˋ </rt>
+            </ruby>
+          </div>
+
+        <div class="head-tag">
+            <h2 style="margin-bottom: 20px;">50. This is "head-tag" TAG example:</h2>         
+            <p>The <code class="w3-codespan">&lt;head&gt;</code> element is a container for 
+                metadata (data about data) and is placed between the &lt;html&gt; tag and the &lt;body&gt; tag.
+            </p>
+          </div>
+
+    </div>
+    
+
+
+
+
+
+
+</body>
+</html>

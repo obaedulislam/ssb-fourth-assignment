@@ -1,0 +1,766 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 90%;
+    margin: 0 auto;
+}
+.head {
+    margin: 7px 0px;
+    min-height: 50px;
+}
+.logo{
+    width: 40%;
+    float: left;
+    margin-left: 50px;
+}
+.logo img{
+    overflow: hidden;
+}
+nav{
+    width: 50%;
+    float: right;
+}
+nav ul{
+    text-align: center;
+    float: right;
+    margin-top: 13px;
+    margin-right: 62px;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block; 
+    margin-left: 50px;
+}
+.head nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 700;
+    background-color: #24272b;
+    padding: 5px 50px;
+    border: 2px solid #92b3ad;
+    transition: .5s;
+}
+nav ul li a:hover{
+    border: 2px solid #92b3ad;
+    color: #111;
+    background-color: #fff;
+}
+.web-layout{
+    margin-top: 50px;
+    padding-bottom: 4px;
+    text-align: center;
+    border-bottom: 3px dotted #24272b;
+}
+.web-layout a{
+    text-decoration: none;
+    color: rgb(19, 16, 12);
+    font-weight: bold;
+    font-size: 25px;
+    background-color: rgb(238, 180, 236);
+    padding: 5px 20px 5px 20px;
+    transition: .5s;
+}
+.web-layout a:hover{
+    background-color: #24272b;
+    color: #fff;
+}
+
+
+.header{
+    height: 80px;
+    background-color: #222;
+    margin-top: 20px;
+}
+.header .logo{
+    width: 15%;
+    height: 60px;
+    margin-top: 12px;
+    margin-left: 62px;
+}
+.header .logo a{
+    text-decoration: none;
+}
+.header .logo a h1 {
+    text-align: center;
+    margin-top: 5px;
+    color: #222;
+    text-shadow: 2px 1px #24272b;
+    background-color: cadetblue;
+    padding: 3px 0px;
+}
+.header .nav-section{
+    width: 50%;
+    height: 60px;
+    margin-top: 12px;
+    margin-right: 62px;
+    float: right;
+    overflow: hidden;
+}
+.header .nav-section h1 {
+    text-align: center;
+    margin-top: 11px;
+    color: #222;
+    background-color: cadetblue; 
+    padding: 3px 0px;
+    font-size: 22px;
+}
+.slider{
+    width: 100%;
+    min-height: 400px;
+    background-color:limegreen;
+    position: relative;
+}
+.slider .prev{
+    position: absolute;
+    top: 45%;
+    left: 5%;
+}
+.slider .next{
+    position: absolute;
+    top: 45%;
+    right: 5%;
+}
+.slider .next, .prev h5{
+    text-decoration: none;
+    color: #fff;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 700;
+    background-color: #24272b;
+    padding: 5px 7px;
+    transition: .5s;
+    font-size: 10px;
+    cursor: pointer;
+}
+.slider-content {
+    width: 30%;
+    margin: 0 auto;
+    text-align: center;
+    position: absolute;
+    top: 35%;
+    left: 35.5%;
+}
+.slider-content h2{
+    margin-bottom: 20px;
+}
+.slider-content p{
+    margin-bottom: 20px;
+}
+.slider-dot{
+    text-align: center;
+}
+.slider-dot .dot1{
+    position: absolute;
+    left: 48%;
+    bottom: 5%;
+    height: 15px;
+    width: 15px;
+    background-color: #fff;
+    margin-right: 10px;
+    border-radius: 50%;
+}
+.slider-dot .dot2{
+    position: absolute;
+    left: 50%;
+    bottom: 5%;
+    height: 15px;
+    width: 15px;
+    background-color:lightslategrey;
+    margin-right: 10px;
+    border-radius: 50%;
+}
+.slider-dot .dot3{
+    position: absolute;
+    left: 52%;
+    bottom: 5%;
+    height: 15px;
+    width: 15px;
+    background-color: #fff;
+    margin-right: 10px;
+    border-radius: 50%;
+}
+.slider-content a{
+    text-decoration: none;
+    color: #fff;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 700;
+    background-color: #24272b;
+    padding: 5px 10px;
+    transition: .5s;
+}
+.slider-content a:hover{
+    border: 2px solid #92b3ad;
+    color: #111;
+    background-color: #fff;
+}
+.about-section{
+    height: 400px;
+    width: 100%;
+    background-color: lightblue;
+    text-align: center;
+    padding: 30px 0px;
+}
+.about-content{
+    width: 90%;
+    margin: 0 auto
+}
+.about-field {
+    height: 290px;
+    width: 49%;
+    background-color:gainsboro;
+    float: left;
+    margin-right: 20px;
+    margin-top: 35px;
+    box-shadow:  2px 2px 14px #000000;
+}
+.about-field:last-child {
+    margin-right: 0px;
+}
+.service-section{
+    height: 400px;
+    width: 100%;
+    background-color:lightslategray;
+    text-align: center;
+    padding: 30px 0px;
+}
+.service-section .service-content{
+    width: 90%;
+    margin: 0 auto
+}
+.service-section .about-field {
+    height: 290px;
+    width: 32.1%;
+    background-color:gainsboro;
+    float: left;
+    margin-right: 20px;
+    margin-top: 35px;
+    box-shadow:  2px 2px 14px #000000;
+    cursor: pointer;
+    transition: .5s;
+}
+.service-section .about-field:hover {
+    background-color:#2d4263;
+}
+.service-section .about-field:last-child {
+    margin-right: 0px;
+}
+.portfolio-section{
+    min-height: 780px;
+    width: 100%;
+    text-align: center;
+    padding: 30px 0px;
+    background-color: lightblue;
+}
+.portfolio-section .service-content{
+    width: 90%;
+    margin: 0 auto
+}
+.portfolio-section .about-field {
+    height: 290px;
+    width: 23.60%;
+    background-color:#2d4263;
+    float: left;
+    margin-right: 20px;
+    margin-top: 35px;
+    box-shadow:  2px 2px 14px #000000;
+    cursor: pointer;
+    transition: .5s;
+}
+.portfolio-section .about-field:last-child {
+    margin-right: 0px;
+}
+.portfolio-section .about-field:hover {
+    background-color:#b3b6ba;
+}
+.portfolio-section .about-field:last-child {
+    margin-right: 0px;
+}
+.portfolio-section .all-catagory ul {
+    margin-top: 30px;
+}
+.portfolio-section .all-catagory ul li{
+    list-style: none;
+    display: inline-block;
+}
+.portfolio-section .all-catagory ul li a{
+    background-color: #131f0b;
+    color: #fff;
+    padding: 5px 10px;
+    text-decoration: none;
+    transition: .5s;
+    font-weight: bold;
+}
+.portfolio-section .all-catagory ul li a:hover{
+    background-color: #92b3ad;;
+    color: #111;
+    padding: 5px 10px;
+    text-decoration: none;
+}
+.portfolio-section .all-catagory ul li a.active{
+    color: #111;
+    background-color: #92b3ad;
+}
+
+.client-section{
+    background-color: lightslategray;
+    padding: 50px 0px;
+}
+.client-section .client-img{
+    height: 80px;
+    width: 80px;
+    background-color:#222;
+    border-radius: 50%;
+    align-content: center;
+    margin:0 auto;
+    border: 5px solid #b3b6ba;
+    box-shadow:  2px 2px 14px #000000;
+}
+.client-section .client-feedback{
+    height: 150px;
+    width: 500px;
+    background-color: violet;
+    margin: 0 auto;
+    box-shadow:  2px 2px 14px #000000;
+}
+.client-section .dotted{
+    text-align: center;
+    margin-top: 40px;
+}
+.client-section .dotted .dotted1{
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    background-color: #2d4263;
+    display: inline-block;
+}
+
+
+.contact-section{
+    width: 100%;
+    min-height: 600px;
+    background-color: lightblue;
+}
+.contact-section .contact{
+    width: 43%;
+    float: left;
+}
+.contact-section form{
+    padding: 50px 0px 0px 50px;
+}
+.contact-section form input[type=text],[type=email], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  .contact-section form input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .contact-section form input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  .contact-section .map{
+    width: 45%;
+    margin-top: 50px;
+    margin-right: 50px;
+    float: right;
+    overflow: hidden;
+}
+.contact-section map{
+    padding: 70px;
+}
+
+.footer{
+    height: 70px;
+    background-color: #111;
+}
+.footer p{
+    text-align: center;
+    padding-top: 30px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+
+
+
+/** ===============||||||||||||| Custom CSS on Fifty Tag |||||||||||| **/
+.all-tag{
+    padding: 30px 0px;
+}
+.param-tag{
+    width: 88%;
+    margin: 0 auto;
+    border: 2px ridge #111;
+    padding: 20px;
+}
+
+.picture-tag{
+    width: 88%;
+    margin: 0 auto;
+    margin-top: 20px;
+    border: 2px ridge #111;
+    padding: 20px;
+}
+
+.pre-tag{
+    width: 88%;
+    margin: 0 auto;
+    margin-top: 20px;
+    border: 2px ridge #111;
+    padding: 20px;
+}
+.img-tag{
+    width: 88%;
+    margin: 0 auto;
+    margin-top: 20px;
+    border: 2px ridge #111;
+    padding: 20px;
+}
+.progress-tag{
+    width: 88%;
+    margin: 0 auto;
+    margin-top: 20px;
+    border: 2px ridge #111;
+    padding: 20px;
+}
+.q-tag{
+    width: 88%;
+    margin: 0 auto;
+    margin-top: 20px;
+    border: 2px ridge #111;
+    padding: 20px;
+}
+.q-tag p q{
+    font-style: italic;
+    color:darkslategrey;
+ }
+ .rp-tag{
+    width: 88%;
+    margin: 0 auto;
+    margin-top: 20px;
+    border: 2px ridge #111;
+    padding: 20px;
+}
+ .s-tag{
+    width: 88%;
+    margin: 0 auto;
+    margin-top: 20px;
+    border: 2px ridge #111;
+    padding: 20px;
+}
+ .samp-tag{
+    width: 88%;
+    margin: 0 auto;
+    margin-top: 20px;
+    border: 2px ridge #111;
+    padding: 20px;
+}
+ .small-tag{
+    width: 88%;
+    margin: 0 auto;
+    margin-top: 20px;
+    border: 2px ridge #111;
+    padding: 20px;
+}
+ .source-tag{
+    width: 88%;
+    margin: 0 auto;
+    margin-top: 20px;
+    border: 2px ridge #111;
+    padding: 20px;
+}
+.source-tag audio{
+    width: 60%;
+    margin-left: 20px;
+}
+.summary-tag{
+    width: 88%;
+    margin: 0 auto;
+    margin-top: 20px;
+    border: 2px ridge #111;
+    padding: 20px;
+}
+.summary-tag details{
+    margin-bottom: 20px;
+}
+.subsup-tag{
+    width: 88%;
+    margin: 0 auto;
+    margin-top: 20px;
+    border: 2px ridge #111;
+    padding: 20px;
+}
+.svg-tag{
+    width: 88%;
+    margin: 0 auto;
+    margin-top: 20px;
+    border: 2px ridge #111;
+    padding: 20px;
+}
+.tbh-tag{
+    width: 88%;
+    margin: 0 auto;
+    margin-top: 20px;
+    border: 2px ridge #111;
+    padding: 20px;
+}
+.tbh-tag table{
+    border: 1px solid #35363A;
+}
+.tbh-tag thead tr, th{
+    border: 1px solid #35363A;
+    padding: 5px;
+}
+.tbh-tag tbody tr, td{
+    border: 1px solid #35363A;
+    padding: 5px;
+}
+
+.time-tag{
+    width: 88%;
+    margin: 0 auto;
+    margin-top: 20px;
+    border: 2px ridge #111;
+    padding: 20px;
+}
+.textarea-tag{
+    width: 88%;
+    margin: 0 auto;
+    margin-top: 20px;
+    border: 2px ridge #111;
+    padding: 20px;
+}
+.textarea-tag{
+    width: 88%;
+    margin: 0 auto;
+    margin-top: 20px;
+    border: 2px ridge #111;
+    padding: 20px;
+}
+.tfoot-tag{
+    width: 88%;
+    margin: 0 auto;
+    margin-top: 20px;
+    border: 2px ridge #111;
+    padding: 20px;
+}
+.u-tag{
+    width: 88%;
+    margin: 0 auto;
+    margin-top: 20px;
+    border: 2px ridge #111;
+    padding: 20px;
+}
+.wbr-tag{
+    width: 88%;
+    margin: 0 auto;
+    margin-top: 20px;
+    border: 2px ridge #111;
+    padding: 20px;
+}
+.colgroup-tag{
+    width: 88%;
+    margin: 0 auto;
+    margin-top: 20px;
+    border: 2px ridge #111;
+    padding: 20px;
+}
+.noscript-tag{
+    width: 88%;
+    margin: 0 auto;
+    margin-top: 20px;
+    border: 2px ridge #111;
+    padding: 20px;
+}
+.ol-tag{
+    width: 88%;
+    margin: 0 auto;
+    margin-top: 20px;
+    border: 2px ridge #111;
+    padding: 20px;
+}
+.ol-tag ol{
+    padding-left: 30px;
+}
+.p-tag{
+    width: 88%;
+    margin: 0 auto;
+    margin-top: 20px;
+    border: 2px ridge #111;
+    padding: 20px;
+}
+.rt-tag{
+    width: 88%;
+    margin: 0 auto;
+    margin-top: 20px;
+    border: 2px ridge #111;
+    padding: 20px;
+}
+.select-tag{
+    width: 88%;
+    margin: 0 auto;
+    margin-top: 20px;
+    border: 2px ridge #111;
+    padding: 20px;
+}
+.select-tag select{
+    width: 20%;
+}
+.strong-tag{
+    width: 88%;
+    margin: 0 auto;
+    margin-top: 20px;
+    border: 2px ridge #111;
+    padding: 20px;
+}
+.style-tag{
+    width: 88%;
+    margin: 0 auto;
+    margin-top: 20px;
+    border: 2px ridge #111;
+    padding: 20px;
+}
+.title-tag{
+    width: 88%;
+    margin: 0 auto;
+    margin-top: 20px;
+    border: 2px ridge #111;
+    padding: 20px;
+}
+.tr-tag{
+    width: 88%;
+    margin: 0 auto;
+    margin-top: 20px;
+    border: 2px ridge #111;
+    padding: 20px;
+}
+.tr-tag table, th, td {
+    border: 1px solid black;
+  }
+.ul-tag{
+    width: 88%;
+    margin: 0 auto;
+    margin-top: 20px;
+    border: 2px ridge #111;
+    padding: 20px;
+}
+.table-tag{
+    width: 88%;
+    margin: 0 auto;
+    margin-top: 20px;
+    border: 2px ridge #111;
+    padding: 20px;
+}
+.td-tag{
+    width: 88%;
+    margin: 0 auto;
+    margin-top: 20px;
+    border: 2px ridge #111;
+    padding: 20px;
+}
+.section-tag{
+    width: 88%;
+    margin: 0 auto;
+    margin-top: 20px;
+    border: 2px ridge #111;
+    padding: 20px;
+}
+.script-tag{
+    width: 88%;
+    margin: 0 auto;
+    margin-top: 20px;
+    border: 2px ridge #111;
+    padding: 20px;
+}
+.output-tag{
+    width: 88%;
+    margin: 0 auto;
+    margin-top: 20px;
+    border: 2px ridge #111;
+    padding: 20px;
+}
+.link-tag{
+    width: 88%;
+    margin: 0 auto;
+    margin-top: 20px;
+    border: 2px ridge #111;
+    padding: 20px;
+}
+.i-tag{
+    width: 88%;
+    margin: 0 auto;
+    margin-top: 20px;
+    border: 2px ridge #111;
+    padding: 20px;
+}
+.html-tag{
+    width: 88%;
+    margin: 0 auto;
+    margin-top: 20px;
+    border: 2px ridge #111;
+    padding: 20px;
+}
+.figure-tag{
+    width: 88%;
+    margin: 0 auto;
+    margin-top: 20px;
+    border: 2px ridge #111;
+    padding: 20px;
+}
+.figcaption-tag{
+    width: 88%;
+    margin: 0 auto;
+    margin-top: 20px;
+    border: 2px ridge #111;
+    padding: 20px;
+}
+.colgroup-tag{
+    width: 88%;
+    margin: 0 auto;
+    margin-top: 20px;
+    border: 2px ridge #111;
+    padding: 20px;
+}
+.doctype-tag{
+    width: 88%;
+    margin: 0 auto;
+    margin-top: 20px;
+    border: 2px ridge #111;
+    padding: 20px;
+}
+.comment-tag{
+    width: 88%;
+    margin: 0 auto;
+    margin-top: 20px;
+    border: 2px ridge #111;
+    padding: 20px;
+}
+.ruby-tag{
+    width: 88%;
+    margin: 0 auto;
+    margin-top: 20px;
+    border: 2px ridge #111;
+    padding: 20px;
+}
+.head-tag{
+    width: 88%;
+    margin: 0 auto;
+    margin-top: 20px;
+    border: 2px ridge #111;
+    padding: 20px;
+}
